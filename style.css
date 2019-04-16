@@ -1,0 +1,53 @@
+ .contents{
+ 	width:960px;
+ 	margin: 50px auto;
+ }
+
+ .step1, .step2, .step3{
+ 	width: 300px;
+ 	border: 1px solid gray;
+ 	position:relative;
+ 	display: inline-block;
+ 	margin-right: 20px;
+ }
+
+ h1 {
+ 	margin: 0 10px;
+ 	font-size: 19px;
+ }
+
+ .description{
+ 	margin: 10px;
+ }
+
+img {
+	width: 280px;
+	margin: 10px;
+}
+
+ .text-box{
+ 	background-color: orange;
+ 	color: white;
+ 	display: inline-block;
+ 	padding: 10px 0;
+ 	position: absolute;
+ 	margin: 0;
+}
+
+ .step3{
+ 	margin-right: 0;
+ }
+
+ @media screen and (max-width:768px){
+
+ .contents{
+ 	width: 90%;
+ 	margin:50px auto;
+ }
+
+ .step1, .step2, .step3{
+ 	display: block;
+ 	margin: 20px auto;
+ }
+
+ }
