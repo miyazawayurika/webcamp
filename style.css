@@ -1,11 +1,12 @@
  .contents{
  	width:960px;
  	margin: 50px auto;
+ 	color: gray;
  }
 
  .step1, .step2, .step3{
  	width: 300px;
- 	border: 1px solid gray;
+ 	border: 1px solid lightgray;
  	position:relative;
  	display: inline-block;
  	margin-right: 20px;
@@ -26,7 +27,7 @@ img {
 }
 
  .text-box{
- 	background-color: orange;
+ 	background-color: darkorange;
  	color: white;
  	display: inline-block;
  	padding: 10px 0;
@@ -46,8 +47,19 @@ img {
  }
 
  .step1, .step2, .step3{
+ 	width: 100%;
  	display: block;
- 	margin: 20px auto;
+ 	margin-right: 0;
+ 	margin-bottom: 20px;
+ }
+ .step1{
+ 	margin-top:50px;
+ }
+ img{
+ 	width:350px;
  }
 
+ .text-box{
+	padding: 0;
+}
  }
