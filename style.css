@@ -1,7 +1,6 @@
  .contents{
  	width:960px;
  	margin: 50px auto;
- 	color: gray;
  }
 
  .step1, .step2, .step3{
@@ -22,8 +21,11 @@
  }
 
 img {
+	display: block;
 	width: 280px;
 	margin: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
  .text-box{
@@ -51,12 +53,14 @@ img {
  	display: block;
  	margin-right: 0;
  	margin-bottom: 20px;
+ 	font-size: 15px;
  }
  .step1{
  	margin-top:50px;
  }
- img{
- 	width:350px;
+
+  img{
+ 	width:93%;
  }
 
  .text-box{
